@@ -1,0 +1,4 @@
+*** Changelog - Ultron Website Template ***
+
+2015.07.01 - version 1.0
+	* First release!
