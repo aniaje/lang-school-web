@@ -1,0 +1,24 @@
+{
+  "name": "mova",
+  "version": "1.0.0",
+  "description": "mova gdansk language school landing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniaje/lang-school-web.git"
+  },
+  "keywords": [
+    "landing",
+    "school",
+    "website"
+  ],
+  "author": "Ana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniaje/lang-school-web/issues"
+  },
+  "homepage": "https://github.com/aniaje/lang-school-web#readme"
+}

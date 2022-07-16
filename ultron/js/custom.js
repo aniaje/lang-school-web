@@ -187,6 +187,11 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function () {
-  $("#myTab a:first").tab("show"); // show last tab
+$('#myTab a[href="#german"]').tab("show");
+$('#myTab a[href="#english"]').tab("show");
+$('#myTab a[href="#italian"]').tab("show");
+
+$('a[data-toggle="tab"]').on("shown.bs.tab", function (e) {
+  e.target; // newly activated tab
+  e.relatedTarget; // previous active tab
 });
